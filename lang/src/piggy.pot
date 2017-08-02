@@ -1,0 +1,693 @@
+# Translation of the WordPress plugin Piggy 1.2.1 by Dale Mugford & Duane Storey (BraveNewCode).
+# Copyright (C) 2011 Dale Mugford & Duane Storey (BraveNewCode)
+# This file is distributed under the same license as the Piggy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Piggy 1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/piggy\n"
+"POT-Creation-Date: 2011-09-11 08:13-0400\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. #-#-#-#-#  piggy.pot (Piggy 1.2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin-panel.php:9 admin/admin-panel.php:10 admin/admin-panel.php:27
+#: admin/admin-panel.php:28 templates/info-pane.php:10 templates/piggy.php:6
+msgid "Piggy"
+msgstr ""
+
+#: admin/admin-panel.php:67 pro/notifications.php:13
+msgid "None"
+msgstr ""
+
+#: admin/admin-panel.php:90 admin/admin-panel.php:149
+msgid "Overview"
+msgstr ""
+
+#: admin/admin-panel.php:92
+msgid "OinkBoard"
+msgstr ""
+
+#: admin/admin-panel.php:97
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-panel.php:99 admin/admin-panel.php:167
+msgid "General"
+msgstr ""
+
+#: admin/admin-panel.php:101
+msgid "Piggy URL"
+msgstr ""
+
+#: admin/admin-panel.php:101
+msgid ""
+"URL fragment that Piggy should use to be accessed on your website, e.g. \"/"
+"stats/\" or \"/piggy/\"."
+msgstr ""
+
+#: admin/admin-panel.php:105
+msgid "eCommerce Platform"
+msgstr ""
+
+#: admin/admin-panel.php:109
+msgid "Timezone"
+msgstr ""
+
+#: admin/admin-panel.php:109
+msgid "Piggy will respect this zone for its date/time statistics counting."
+msgstr ""
+
+#: admin/admin-panel.php:110
+msgid "Language"
+msgstr ""
+
+#: admin/admin-panel.php:114
+msgid "Piggy Theme"
+msgstr ""
+
+#: admin/admin-panel.php:115
+msgid "Modify the appearance of Piggy and Home Screen bookmark icon."
+msgstr ""
+
+#: admin/admin-panel.php:118
+msgid "Currency symbol"
+msgstr ""
+
+#: admin/admin-panel.php:120
+msgid "Dollar ($)"
+msgstr ""
+
+#: admin/admin-panel.php:121
+msgid "Euro (€)"
+msgstr ""
+
+#: admin/admin-panel.php:124
+msgid "Use startup image"
+msgstr ""
+
+#: admin/admin-panel.php:124
+msgid ""
+"Piggy will use a startup background while loading, matching the Piggy Theme "
+"chosen above."
+msgstr ""
+
+#: admin/admin-panel.php:126
+msgid "Security"
+msgstr ""
+
+#: admin/admin-panel.php:130
+msgid "Number of digits for the passcode"
+msgstr ""
+
+#: admin/admin-panel.php:133 admin/admin-panel.php:134
+#, php-format
+msgid "%d digits"
+msgstr ""
+
+#: admin/admin-panel.php:137
+msgid "Numeric passcode to access Piggy"
+msgstr ""
+
+#: admin/admin-panel.php:138
+msgid "Require passcode on each launch"
+msgstr ""
+
+#: admin/admin-panel.php:138
+msgid ""
+"When checked the passcode will always be required on launch. If unchecked, "
+"the passcode will be valid until the user logs out."
+msgstr ""
+
+#: admin/admin-panel.php:140
+msgid "Advanced"
+msgstr ""
+
+#: admin/admin-panel.php:142
+msgid "Adjust All-Time Sales Total"
+msgstr ""
+
+#: admin/admin-panel.php:142
+msgid ""
+"Enter a number here to adjust the all-time sales total. This can be used to "
+"account for sales from another e-Commerce engine."
+msgstr ""
+
+#: admin/admin-panel.php:143
+msgid "Adjust All-Time Sales Count"
+msgstr ""
+
+#: admin/admin-panel.php:143
+msgid ""
+"Enter a number here to adjust the all-time sales count. This can be used to "
+"account for sales from another e-Commerce engine."
+msgstr ""
+
+#: admin/admin-panel.php:147
+msgid "Panels"
+msgstr ""
+
+#: admin/admin-panel.php:150
+msgid "Maximum number of 'Best Sellers' to display"
+msgstr ""
+
+#: admin/admin-panel.php:172
+msgid "Account + Licenses"
+msgstr ""
+
+#: admin/ajax/license-area.php:3
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr ""
+
+#: admin/ajax/license-area.php:8
+msgid "Remove license?"
+msgstr ""
+
+#: admin/ajax/license-area.php:15
+#, php-format
+msgid "%s%d%s license(s) remaining."
+msgstr ""
+
+#: admin/ajax/license-area.php:20
+msgid "Purchase More Licenses"
+msgstr ""
+
+#: admin/ajax/license-area.php:27
+msgid "You have not activated a license for this WordPress installation."
+msgstr ""
+
+#: admin/ajax/license-area.php:29
+msgid "Activate This WordPress installation &raquo;"
+msgstr ""
+
+#: admin/ajax/license-area.php:37
+msgid "Reset Licenses Now"
+msgstr ""
+
+#: admin/ajax/license-area.php:42
+#, php-format
+msgid ""
+"* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr ""
+
+#: admin/ajax/license-area.php:49
+#, php-format
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr ""
+
+#: admin/html/admin-form.php:6
+msgid "Follow @PiggyPlugin on Twitter!"
+msgstr ""
+
+#: admin/html/admin-form.php:29
+msgid "Loading..."
+msgstr ""
+
+#: admin/html/admin-form.php:30
+msgid "Saving..."
+msgstr ""
+
+#: admin/html/admin-form.php:31
+msgid "Done"
+msgstr ""
+
+#: admin/html/admin-form.php:32
+msgid "Oops! Try saving again."
+msgstr ""
+
+#: admin/html/admin-form.php:49
+msgid "Save Changes"
+msgstr ""
+
+#: admin/html/admin-form.php:53
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/html/admin-form.php:57
+msgid "My Account"
+msgstr ""
+
+#: admin/html/admin-form.php:58
+msgid "Docs"
+msgstr ""
+
+#: admin/html/admin-form.php:59
+msgid "Support Forums"
+msgstr ""
+
+#: admin/html/admin-form.php:60
+msgid "Twitter &rsaquo; BNC"
+msgstr ""
+
+#: admin/html/admin-form.php:61
+msgid "Terms &amp; Legal"
+msgstr ""
+
+#: admin/html/ajax/piggy-news.php:9
+msgid "The BraveNewCode Blog timed out."
+msgstr ""
+
+#: admin/settings/howl-settings.php:9 admin/settings/howl-settings.php:22
+msgid "Username"
+msgstr ""
+
+#: admin/settings/howl-settings.php:11 admin/settings/howl-settings.php:24
+msgid "Password"
+msgstr ""
+
+#: admin/settings/license-check.php:3
+msgid "License accepted, thank you for supporting Piggy!"
+msgstr ""
+
+#: admin/settings/license-check.php:5
+#, php-format
+msgid ""
+"Your Account and License Key have been accepted. <br />Next, %sconnect a "
+"site license%s to this domain to enable support and automatic upgrades."
+msgstr ""
+
+#: admin/settings/license-check.php:10
+msgid "The Account E-Mail you have entered is invalid. Please try again."
+msgstr ""
+
+#: admin/settings/license-check.php:12
+msgid ""
+"The Account E-Mail you have entered is not associated with a valid license.  "
+"Please check your Account E-Mail and try again."
+msgstr ""
+
+#: admin/settings/license-check.php:14
+msgid ""
+"This Account/License Key combination you have entered was rejected by the "
+"BraveNewCode server. Please try again."
+msgstr ""
+
+#: admin/settings/license-check.php:17
+#, php-format
+msgid ""
+"Please enter your Account E-Mail and License Key to begin the license "
+"activation process, or %spurchase a license &raquo;%s"
+msgstr ""
+
+#: admin/settings/manage-licenses.php:1
+msgid "Loading licenses from the BNC server..."
+msgstr ""
+
+#: admin/settings/oinkboard.php:10
+msgid "Warning"
+msgstr ""
+
+#: admin/settings/oinkboard.php:10
+msgid "Pretty Permalinks have not been set for this website."
+msgstr ""
+
+#: admin/settings/oinkboard.php:11
+msgid "They must be enabled to access Piggy."
+msgstr ""
+
+#: admin/settings/oinkboard.php:11
+msgid "Learn More"
+msgstr ""
+
+#: admin/settings/oinkboard.php:17
+msgid "Right Now"
+msgstr ""
+
+#: admin/settings/oinkboard.php:19
+msgid "Sales at a Glance"
+msgstr ""
+
+#: admin/settings/oinkboard.php:25 include/globals.php:532
+#: include/globals.php:591
+msgid "This Week"
+msgstr ""
+
+#: admin/settings/oinkboard.php:29 include/globals.php:389
+#: include/globals.php:472 include/globals.php:473 include/globals.php:536
+#: include/globals.php:604 include/globals.php:671 include/globals.php:734
+msgid "This Month"
+msgstr ""
+
+#: admin/settings/oinkboard.php:33 include/globals.php:427
+#: include/globals.php:540 include/globals.php:617 include/globals.php:697
+#: include/globals.php:749
+msgid "This Year"
+msgstr ""
+
+#: admin/settings/oinkboard.php:37 include/globals.php:548
+#: include/globals.php:550 include/globals.php:765
+msgid "All Time"
+msgstr ""
+
+#: admin/settings/oinkboard.php:47
+msgid "Piggy News"
+msgstr ""
+
+#: admin/settings/oinkboard.php:49
+msgid "From the BraveNewCode Blog"
+msgstr ""
+
+#: admin/settings/prowl-api-keys.php:9 admin/settings/prowl-api-keys.php:19
+#: include/classes/piggy.php:523
+msgid "Prowl API Key"
+msgstr ""
+
+#: admin/settings/setup.php:3
+msgid "Your current Piggy URL is"
+msgstr ""
+
+#: admin/settings/setup.php:4
+msgid ""
+"To access Piggy,  visit the URL in mobile Safari on iOS devices, or the web "
+"browser on Android"
+msgstr ""
+
+#: include/classes/piggy.php:102 include/classes/piggy.php:117
+msgid "Test Notification"
+msgstr ""
+
+#: include/classes/piggy.php:103 include/classes/piggy.php:118
+msgid "Looks like it's working!"
+msgstr ""
+
+#: include/classes/piggy.php:146
+msgid "Piggy Changelog"
+msgstr ""
+
+#: include/classes/piggy.php:499
+msgid ""
+"To install this web app on your %device: tap %icon then \"<strong>Add to "
+"Home Screen</strong>\"."
+msgstr ""
+
+#: include/classes/piggy.php:500
+msgid "Try again."
+msgstr ""
+
+#: include/classes/piggy.php:501
+msgid "Last checked for updates:"
+msgstr ""
+
+#: include/classes/piggy.php:502
+msgid "This link will open in Safari."
+msgstr ""
+
+#: include/classes/piggy.php:503
+msgid "Your changes will take effect the next time you launch Piggy"
+msgstr ""
+
+#: include/classes/piggy.php:524
+msgid "Reset all Piggy admin settings? This operation cannot be undone."
+msgstr ""
+
+#: include/classes/piggy.php:525
+msgid "Activating license, please wait..."
+msgstr ""
+
+#: include/globals.php:285 include/globals.php:496
+msgid "Revenue"
+msgstr ""
+
+#: include/globals.php:286 include/globals.php:497
+msgid "Sales"
+msgstr ""
+
+#: include/globals.php:357 include/globals.php:528 include/globals.php:578
+msgid "Today"
+msgstr ""
+
+#: include/globals.php:453
+msgid "Other"
+msgstr ""
+
+#: include/globals.php:903
+msgid "Products This Week"
+msgstr ""
+
+#: include/globals.php:904 templates/piggy.php:164
+msgid "Sales This Week"
+msgstr ""
+
+#: include/globals.php:905
+msgid "Products This Month"
+msgstr ""
+
+#: include/globals.php:906 templates/piggy.php:193
+msgid "Sales This Month"
+msgstr ""
+
+#: include/globals.php:1229
+#, php-format
+msgid "Sorry, Piggy is not yet compatible with %s"
+msgstr ""
+
+#: include/globals.php:1233
+msgid "Sorry, Piggy is not yet viewable in browsers"
+msgstr ""
+
+#: include/globals.php:1376
+msgid "Green Moolah"
+msgstr ""
+
+#: include/globals.php:1377
+msgid "iOS Linen"
+msgstr ""
+
+#: include/globals.php:1378
+msgid "Blue Skies"
+msgstr ""
+
+#: include/globals.php:1379
+msgid "Black Skies"
+msgstr ""
+
+#: include/globals.php:1380
+msgid "Ruby Red"
+msgstr ""
+
+#: include/globals.php:1381
+msgid "Pink Pop"
+msgstr ""
+
+#: include/settings.php:14
+msgid "New eCommerce Sale!"
+msgstr ""
+
+#: pro/admin.php:5
+msgid "Account"
+msgstr ""
+
+#: pro/admin.php:7
+msgid "Account Information"
+msgstr ""
+
+#: pro/admin.php:8
+msgid ""
+"Your Account E-Mail and License Key are required to enable site licenses for "
+"support and auto-upgrades with Piggy."
+msgstr ""
+
+#: pro/admin.php:9
+msgid "Account E-Mail"
+msgstr ""
+
+#: pro/admin.php:10
+msgid "License Key"
+msgstr ""
+
+#: pro/admin.php:18 pro/admin.php:20
+msgid "Manage Licenses"
+msgstr ""
+
+#: pro/notifications.php:4
+msgid "Notifications"
+msgstr ""
+
+#: pro/notifications.php:6
+msgid "Push Notifications"
+msgstr ""
+
+#: pro/notifications.php:10
+msgid "Notification service"
+msgstr ""
+
+#: pro/notifications.php:11
+msgid ""
+"Configure a push-notification service to deliver real-time push updates of e-"
+"Commerce sales to your Mac or iOS device. Requires Prowl or Howl iOS apps "
+"installed and configured on each device."
+msgstr ""
+
+#: pro/notifications.php:14
+msgid "Prowl"
+msgstr ""
+
+#: pro/notifications.php:15
+msgid "Howl"
+msgstr ""
+
+#: pro/notifications.php:18
+msgid "Notification message title"
+msgstr ""
+
+#: pro/notifications.php:20
+msgid "Prowl Settings"
+msgstr ""
+
+#: pro/notifications.php:21
+msgid "API Keys"
+msgstr ""
+
+#: pro/notifications.php:22 pro/notifications.php:26
+msgid "Send test notification message"
+msgstr ""
+
+#: pro/notifications.php:24
+msgid "Howl Settings"
+msgstr ""
+
+#: pro/notifications.php:25
+msgid "Howl Username"
+msgstr ""
+
+#: pro/projected.php:7
+#, php-format
+msgid "%s sales"
+msgstr ""
+
+#: pro/projected.php:15 templates/piggy.php:53
+msgid "Best Sellers"
+msgstr ""
+
+#: templates/info-pane.php:3
+msgid "Close"
+msgstr ""
+
+#: templates/info-pane.php:5
+msgid "Log out"
+msgstr ""
+
+#: templates/info-pane.php:7
+msgid "About"
+msgstr ""
+
+#: templates/info-pane.php:11
+msgid "by BraveNewCode Inc."
+msgstr ""
+
+#: templates/info-pane.php:21
+msgid "Frequently asked questions"
+msgstr ""
+
+#: templates/info-pane.php:22
+msgid "piggyplugin.com"
+msgstr ""
+
+#: templates/info-pane.php:23
+msgid "bravenewcode.com"
+msgstr ""
+
+#: templates/info-pane.php:31 templates/piggy.php:93 templates/piggy.php:122
+#: templates/piggy.php:165 templates/piggy.php:194 templates/piggy.php:219
+#: templates/piggy.php:244 templates/piggy.php:269 templates/piggy.php:294
+#: templates/piggy.php:319
+msgid "Back"
+msgstr ""
+
+#: templates/info-pane.php:32
+msgid "FAQ"
+msgstr ""
+
+#: templates/login.php:4
+msgid "Log in"
+msgstr ""
+
+#: templates/login.php:8
+msgid "Enter your passcode to view Piggy"
+msgstr ""
+
+#: templates/piggy.php:30
+msgid "Current"
+msgstr ""
+
+#: templates/piggy.php:31
+msgid "Projected"
+msgstr ""
+
+#: templates/piggy.php:45
+#, php-format
+msgid "%s sales &#155; Avg %s%0.2f"
+msgstr ""
+
+#: templates/piggy.php:74
+msgid "Upgrade to Piggy Pro!"
+msgstr ""
+
+#: templates/piggy.php:80
+msgid "Last updated"
+msgstr ""
+
+#: templates/piggy.php:92 templates/piggy.php:121
+msgid "Sales Today"
+msgstr ""
+
+#: templates/piggy.php:112 templates/piggy.php:154
+msgid "No sales today."
+msgstr ""
+
+#: templates/piggy.php:133
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/piggy.php:184
+msgid "No sales this week."
+msgstr ""
+
+#: templates/piggy.php:218
+msgid "Sales This Year"
+msgstr ""
+
+#: templates/piggy.php:243
+msgid "All Time Sales"
+msgstr ""
+
+#: templates/piggy.php:268
+msgid "Best This Month"
+msgstr ""
+
+#: templates/piggy.php:293
+msgid "Best This Year"
+msgstr ""
+
+#: templates/piggy.php:318
+msgid "Best All Time"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://bravenewcode.com/piggy"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Piggy adds a web-app to your website for monitoring WP E-Commerce, Cart66 "
+"and Shopp sales and statistics in real-time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dale Mugford & Duane Storey (BraveNewCode)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bravenewcode.com"
+msgstr ""
